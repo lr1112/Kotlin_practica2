@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <View
+        android:id="@+id/vistaDeLogo"
         android:layout_width="300dp"
         android:layout_height="80dp"
         android:background="@color/purple_200"
@@ -17,6 +18,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vistaDeLogo"
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

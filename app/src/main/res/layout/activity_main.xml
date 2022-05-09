@@ -37,7 +37,17 @@
         android:id="@+id/etPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-          />
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Escriba su Contraseña"
+        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUser" />
+    <Button
+        android:layout_width=""
+        android:layout_height=""
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
